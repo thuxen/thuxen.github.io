@@ -1,13 +1,13 @@
 :root {
-  --bg: #f7f8fa;
-  --fg: #0f172a;
-  --muted: #4a5567;
-  --accent: #2c5ff6;
-  --accent-dark: #1d3fad;
-  --surface: #ffffff;
-  --border: #e2e8f0;
+  --bg: #0f172a;
+  --fg: #f7f8fa;
+  --muted: #94a3b8;
+  --accent: #3b82f6;
+  --accent-dark: #2563eb;
+  --surface: #1e293b;
+  --border: #334155;
   --radius: 12px;
-  --shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+  --shadow: 0 20px 45px rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -85,7 +85,7 @@ a:hover {
 
 .hero {
   padding: 96px 0;
-  background: linear-gradient(135deg, #e7ecff 0%, #f7f8fa 100%);
+  background: linear-gradient(135deg, #1a2332 0%, #0f172a 100%);
 }
 
 .hero .container {
@@ -145,7 +145,7 @@ a:hover {
 .cta-row .secondary {
   border: 1px solid var(--border);
   color: var(--fg);
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(30, 41, 59, 0.6);
 }
 
 .trust {
@@ -255,7 +255,7 @@ section p {
 }
 
 .team {
-  background: #eef2ff;
+  background: #1a1f2e;
 }
 
 .team-list {
@@ -270,7 +270,7 @@ section p {
   display: flex;
   justify-content: space-between;
   padding: 18px 24px;
-  background: white;
+  background: var(--surface);
   border-radius: var(--radius);
   border: 1px solid var(--border);
 }
@@ -309,12 +309,13 @@ section p {
   border-radius: 10px;
   padding: 12px 14px;
   font: inherit;
-  background: #f8faff;
+  background: var(--bg);
+  color: var(--fg);
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  outline: 2px solid rgba(44, 95, 246, 0.3);
+  outline: 2px solid rgba(59, 130, 246, 0.3);
 }
 
 .contact-form .full {
